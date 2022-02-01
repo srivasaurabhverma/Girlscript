@@ -1,0 +1,31 @@
+.footer1 {
+  position: relative;
+
+  background-color: black;
+  height: 100px;
+}
+.footer_content {
+  position: relative;
+  color: white;
+  margin: auto;
+  font-size: 0.8rem;
+  /* left: 25%; */
+}
+.content__ {
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+.footer_link{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+@media (max-width: 1053px) {
+  .footer1 {
+    position: relative;
+    top: 40vh;
+    background-color: black;
+    height: 100px;
+  }
+}

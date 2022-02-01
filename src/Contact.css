@@ -1,0 +1,179 @@
+.makeStyles-left-15 {
+  height: 102.9vh !important;
+}
+h6 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 30px;
+  position: relative;
+  left: 32px;
+  /*  */
+}
+.makeStyles-bluehead-23 {
+  position: relative !important;
+  left: 50px !important;
+  margin-top: 50px !important;
+}
+.imp {
+  position: relative;
+  top: 15px;
+  margin-top: 0;
+  color: black !important;
+  font-size: 15px !important;
+  margin-left: -25px !important;
+}
+.makeStyles-subhead-18 > h6 {
+  margin-left: 70px !important;
+}
+@media (max-width: 1053px) {
+  .makeStyles-root-14 {
+    position: relative !important;
+    top: 200vh !important;
+  }
+}
+@media (max-width: 1040px) {
+  .makeStyles-left-15 {
+    height: 103.3vh !important;
+  }
+  .makeStyles-title-17 {
+    font-size: 1.7rem !important;
+    margin-left: 150px !important;
+    margin-top: 130px !important;
+  }
+  .makeStyles-subhead-18 {
+    width: 300px !important;
+    margin-left: 0px !important;
+  }
+  .makeStyles-subhead-18 > h6 {
+    font-style: 1.1rem !important;
+    /* margin-left: 10px !important; */
+    margin-left: 30px !important;
+  }
+
+  .makeStyles-button-19 {
+    width: 170px !important;
+    margin-left: 37px !important;
+  }
+  .makeStyles-titler-21 {
+    font-size: 1.7rem !important;
+    margin-left: 80px !important;
+    margin-top: 130px !important;
+  }
+  .makeStyles-bluehead-23 {
+    margin-left: 30px !important;
+  }
+  .makeStyles-bluehead-23 > h6 {
+    font-size: small !important;
+    position: relative;
+    /* left: -40px !important; */
+  }
+  .makeStyles-bluehead-23 > h4 {
+    font-size: 0.9rem !important;
+    position: relative;
+    /* left: -50px !important; */
+  }
+}
+
+@media (max-width: 815px) {
+  .makeStyles-title-17 {
+    font-size: 1.4rem !important;
+  }
+  .makeStyles-titler-21 {
+    font-size: 1.4rem !important;
+  }
+  .makeStyles-subhead-18 > h6 {
+    font-size: 1rem !important;
+  }
+  .makeStyles-button-19 {
+    position: relative;
+    left: 20px !important;
+  }
+}
+
+@media (max-width: 710px) {
+  .MuiGrid-spacing-xs-1 {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .makeStyles-left-15 {
+    width: 100% !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .makeStyles-right-16 {
+    width: 100% !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .makeStyles-title-17 {
+    font-size: 1.5rem !important;
+    margin-left: 80% !important;
+  }
+  .makeStyles-titler-21 {
+    font-size: 1.5rem !important;
+    margin-left: 50% !important;
+  }
+  .makeStyles-subhead-18 {
+    margin-left: 40% !important;
+  }
+  .makeStyles-button-19 {
+    position: relative;
+    left: 90px !important;
+  }
+  .makeStyles-bluehead-23 {
+    margin-left: 130px !important;
+  }
+}
+@media (max-width: 650px) {
+  .makeStyles-subhead-18 {
+    margin-left: 30% !important;
+  }
+  .makeStyles-button-19 {
+    position: relative;
+    left: 60px !important;
+  }
+  .makeStyles-bluehead-23 {
+    margin-left: 110px !important;
+  }
+}
+@media (max-width: 570px) {
+  .makeStyles-subhead-18 {
+    margin-left: 20% !important;
+  }
+  .makeStyles-button-19 {
+    position: relative;
+    left: 50px !important;
+  }
+  .makeStyles-bluehead-23 {
+    margin-left: 90px !important;
+    width: fit-content !important;
+  }
+}
+
+@media (max-width: 460px) {
+  .makeStyles-subhead-18 {
+    margin-left: 10% !important;
+  }
+  .makeStyles-button-19 {
+    position: relative;
+    left: 35px !important;
+  }
+  .makeStyles-bluehead-23 {
+    margin-left: 65px !important;
+    width: fit-content !important;
+  }
+}
+@media (max-width: 396px) {
+  .makeStyles-subhead-18 {
+    margin-left: 0% !important;
+  }
+  .makeStyles-button-19 {
+    position: relative;
+    left: 25px !important;
+  }
+  .makeStyles-bluehead-23 {
+    margin-left: 55px !important;
+    width: fit-content !important;
+  }
+}
