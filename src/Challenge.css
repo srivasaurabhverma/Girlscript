@@ -7,7 +7,7 @@
   width: 100%;
   /* background-color: red; */
   position: relative;
-  top: -15vh;
+  top: -12vh;
   height: 80vh;
   background-image: url(./images/about-BG.jpg);
   background-repeat: none;
@@ -104,37 +104,9 @@
 @media (max-width: 535px) {
   .descreptions {
     margin-top: 30px !important;
-    font-size: 0.65rem !important;
+    font-size: 0.75rem !important;
     width: fit-content !important;
     margin-left: 10px !important;
   }
 }
-
-@media (max-width: 510px) {
-  .descreptions {
-    margin-top: 30px !important;
-    position: relative;
-    left: -40%;
-  }
-}
-@media (max-width: 464px) {
-  .descreptions {
-    margin-top: 30px !important;
-
-    margin-left: -20px !important;
-  }
-}
-
-@media (max-width: 420px) {
-  .descreptions {
-    margin-top: 30px !important;
-
-    margin-left: -40px !important;
-  }
-}
-@media (max-width: 390px) {
-  .left {
-    font-size: 1.1rem !important;
-    
-  }
-}
+ 

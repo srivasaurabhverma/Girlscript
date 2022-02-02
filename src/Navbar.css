@@ -89,9 +89,7 @@
   }
 }
 @media (max-width: 1053px){
-  .Nav_links_contact{
-    display: none !important;
-  }
+   
   .mobile-menu-link{
     height: 12rem;
   }

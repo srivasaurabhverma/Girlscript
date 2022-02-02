@@ -21,11 +21,4 @@
     border-bottom: 1px solid white;
 }
 
-@media (max-width: 1053px) {
-  .footer1 {
-    position: relative;
-    top: 40vh;
-    background-color: black;
-    height: 100px;
-  }
-}
+ 

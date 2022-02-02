@@ -1,179 +1,168 @@
-.makeStyles-left-15 {
-  height: 102.9vh !important;
+@import url("https://fonts.googleapis.com/css2?family=Candal&family=Poppins:ital,wght@0,500;0,600;0,700;1,300&family=Roboto:wght@300;400&display=swap");
+.conatiner__ {
+  display: flex;
+
+  height: 700px;
+  width: 100%;
 }
-h6 {
-  font-family: "Poppins";
-  font-weight: 600;
+.left__ {
+  width: 50%;
+  background-color: rgb(71, 171, 252);
+  height: 103%;
+}
+
+.right__ {
+  width: 50%;
+  background-color: white;
+  height: 103%;
+}
+
+.content_title1 {
+  color: white;
+  font-size: 5rem;
+  font-family: "Candal";
+  margin-left: 90px;
+  margin-top: 10px;
+  line-height: 100%;
+}
+
+.descreption__ {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  margin-left: 90px;
+  color: white;
+}
+.Join_group_btn {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border: none;
+  height: 50px;
+  width: 200px;
+  margin-left: 90px;
+  margin-top: 40px;
   font-size: 1.2rem;
-  margin-top: 30px;
-  position: relative;
-  left: 32px;
-  /*  */
 }
-.makeStyles-bluehead-23 {
-  position: relative !important;
-  left: 50px !important;
-  margin-top: 50px !important;
+
+.content_title {
+  font-size: 5rem;
+  font-family: "Candal";
+  margin-left: 90px;
+  margin-top: 10px;
+  line-height: 100%;
 }
-.imp {
-  position: relative;
-  top: 15px;
-  margin-top: 0;
-  color: black !important;
-  font-size: 15px !important;
-  margin-left: -25px !important;
+.content_left {
+  padding-top: 90px;
 }
-.makeStyles-subhead-18 > h6 {
-  margin-left: 70px !important;
+.content_right {
+  padding-top: 90px;
+}
+.first__ {
+  margin-left: 90px;
+  margin-top: 40px;
+}
+.mini_tiltle {
+  font-size: 1.2rem;
+  color: rgb(71, 171, 252);;
+}
+.first_title {
+  font-size: 0.98rem;
+  margin-top: 10px;
 }
 @media (max-width: 1053px) {
-  .makeStyles-root-14 {
-    position: relative !important;
-    top: 200vh !important;
+  .conatiner__ {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    height: fit-content !important;
+  }
+  .left__ {
+    width: 100%;
+    height: 400px;
+  }
+  .right__ {
+    width: 100%;
+     
+  }
+  .content_title1 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 4rem;
+  }
+  .content_title {
+    text-align: center;
+    font-size: 4rem;
+    margin-left: 0;
+  }
+  .descreption__ {
+    margin-left: 0;
+    text-align: center;
+    
+  }
+  .first__ {
+    margin-left: 0;
+    text-align: center;
+    /* margin-bottom: 10px !important; */
+  }
+  .mini_tiltle {
+    /* margin-left: 0; */
+    text-align: center;
+     
   }
 }
-@media (max-width: 1040px) {
-  .makeStyles-left-15 {
-    height: 103.3vh !important;
+@media (max-width: 790px) {
+  .left__ {
+    height: 500px;
   }
-  .makeStyles-title-17 {
-    font-size: 1.7rem !important;
-    margin-left: 150px !important;
-    margin-top: 130px !important;
+  .content_left {
+    padding-top: 0;
   }
-  .makeStyles-subhead-18 {
-    width: 300px !important;
-    margin-left: 0px !important;
+  .content_right {
+    padding-top: 0;
   }
-  .makeStyles-subhead-18 > h6 {
-    font-style: 1.1rem !important;
-    /* margin-left: 10px !important; */
-    margin-left: 30px !important;
-  }
-
-  .makeStyles-button-19 {
-    width: 170px !important;
-    margin-left: 37px !important;
-  }
-  .makeStyles-titler-21 {
-    font-size: 1.7rem !important;
-    margin-left: 80px !important;
-    margin-top: 130px !important;
-  }
-  .makeStyles-bluehead-23 {
-    margin-left: 30px !important;
-  }
-  .makeStyles-bluehead-23 > h6 {
-    font-size: small !important;
-    position: relative;
-    /* left: -40px !important; */
-  }
-  .makeStyles-bluehead-23 > h4 {
-    font-size: 0.9rem !important;
-    position: relative;
-    /* left: -50px !important; */
+  .Join_group_btn {
+    margin-left: 37%;
   }
 }
-
-@media (max-width: 815px) {
-  .makeStyles-title-17 {
-    font-size: 1.4rem !important;
+@media (max-width: 500px) {
+  .left__ {
+    width: 100%;
+    height: 500px;
+    padding-top: 40px;
   }
-  .makeStyles-titler-21 {
-    font-size: 1.4rem !important;
+  .right__ {
+    width: 100%;
+    padding-top: 40px;
   }
-  .makeStyles-subhead-18 > h6 {
-    font-size: 1rem !important;
+  .content_title1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-left: 0px;
   }
-  .makeStyles-button-19 {
-    position: relative;
-    left: 20px !important;
+  .content_title {
+    text-align: center;
+    font-size: 4rem;
+    margin-left: 0px;
   }
-}
-
-@media (max-width: 710px) {
-  .MuiGrid-spacing-xs-1 {
-    display: flex !important;
-    flex-direction: column !important;
+  .descreption__ {
+    text-align: center;
+    margin-left: 0px;
   }
-  .makeStyles-left-15 {
-    width: 100% !important;
+  .first__ {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .mini_tiltle {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .Join_group_btn {
+    display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .makeStyles-right-16 {
-    width: 100% !important;
-    align-items: center;
-    justify-content: center;
-  }
-  .makeStyles-title-17 {
-    font-size: 1.5rem !important;
-    margin-left: 80% !important;
-  }
-  .makeStyles-titler-21 {
-    font-size: 1.5rem !important;
-    margin-left: 50% !important;
-  }
-  .makeStyles-subhead-18 {
-    margin-left: 40% !important;
-  }
-  .makeStyles-button-19 {
     position: relative;
-    left: 90px !important;
+    left: -12%;
   }
-  .makeStyles-bluehead-23 {
-    margin-left: 130px !important;
-  }
-}
-@media (max-width: 650px) {
-  .makeStyles-subhead-18 {
-    margin-left: 30% !important;
-  }
-  .makeStyles-button-19 {
-    position: relative;
-    left: 60px !important;
-  }
-  .makeStyles-bluehead-23 {
-    margin-left: 110px !important;
-  }
-}
-@media (max-width: 570px) {
-  .makeStyles-subhead-18 {
-    margin-left: 20% !important;
-  }
-  .makeStyles-button-19 {
-    position: relative;
-    left: 50px !important;
-  }
-  .makeStyles-bluehead-23 {
-    margin-left: 90px !important;
-    width: fit-content !important;
-  }
-}
-
-@media (max-width: 460px) {
-  .makeStyles-subhead-18 {
-    margin-left: 10% !important;
-  }
-  .makeStyles-button-19 {
-    position: relative;
-    left: 35px !important;
-  }
-  .makeStyles-bluehead-23 {
-    margin-left: 65px !important;
-    width: fit-content !important;
-  }
-}
-@media (max-width: 396px) {
-  .makeStyles-subhead-18 {
-    margin-left: 0% !important;
-  }
-  .makeStyles-button-19 {
-    position: relative;
-    left: 25px !important;
-  }
-  .makeStyles-bluehead-23 {
-    margin-left: 55px !important;
-    width: fit-content !important;
+  .first__{
+    margin-top: 18px;
   }
 }

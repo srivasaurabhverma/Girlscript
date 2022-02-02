@@ -1,8 +1,8 @@
 import React from "react";
-import "./Footer.css"
+import "./Footer1.css"
 const Footer = () => {
   return (
-    <div className="footer1_">
+    <div className="footer1">
       <div className="footer_content">
         <p className="content__">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright © 2021 Girlscript Foundation. <br />

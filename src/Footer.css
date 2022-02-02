@@ -4,8 +4,6 @@
     position: relative;
     /* top: 10vh; */
 }
-@media (max-width: 510px){
-    .footer1_{
-        top: 300vh !important;
-    }
-}
+ 
+
+/* 98px */

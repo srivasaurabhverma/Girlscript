@@ -13,244 +13,113 @@ import manas from "./images/manas.jpg";
 import harsha from "./images/harsha.jpg";
 import tejasi from "./images/tejasi.jpeg";
 import "./Team.css";
-
-const useStyles = makeStyles((theme) => ({
-  grid: {
-    width: "100%",
-    margin: "0px",
-  },
-
-  root: {
-    margin: "0px",
-    display: "flex",
-    flexWrap: "wrap",
-    "& > *": {
-      margin: theme.spacing(1),
-      width: theme.spacing(16),
-      height: theme.spacing(35),
-    },
-  },
-
-  paper : {
-    marginInlineStart : '150px',
-    marginTop : '130px',
-    padding : "0px",
-    height : "380px",
-    width : "22%",
-    backgroundColor : "#ffffff",
-    
-
-},
-paper2 : {
-  marginInlineStart : '00px',
-  marginTop : '60px',
-  height : "380px",
-  width : "22%",
-  padding : "0px",
-  backgroundColor : "#ffffff",
-
-},
-paper3 : {
-  marginInlineStart : '0px',
-  marginTop : '0px',
-  padding : "0px",
-  height : "380px",
-  width : "22%",
-  backgroundColor : "#ffffff",
-  
-
-},
-
-paper4 : {
-  marginInlineStart : '150px',
-  marginTop : '0px',
-  padding : "0px",
-  height : "370px",
-  width : "22%",
-  backgroundColor : "#ffffff",
-  
-
-},
-paper5 : {
-  position:"relative",
-  top:"-70px",
-  marginInlineStart : '0px',
-  marginTop : '0px',
-  padding : "0px",
-  height : "380px",
-  width : "22%",
-  backgroundColor : "#ffffff",
-  
-
-},
-
-  main: {
-    height: "240vh",
-    backgroundColor: "#F5FBFF",
-    margin: "0px",
-    marginTop: "0vh",
-  },
-
-  text: {
-    color: "#000000",
-    width: "140%",
-    justifyContent: "space-evenly",
-    textAlign: "space-evenly",
-  },
-
-  title: {
-    marginTop: "30px",
-    marginLeft: "120px",
-    display: "flex",
-    justifyItems: "center",
-
-    fontSize: "220%",
-    fontFamily: "Titillium Web",
-  },
-  name: {
-    lineHeight: "10px",
-    marginLeft: "10px",
-  },
-
-  details: {
-    display: "flex",
-    justifyContent: "center",
-    justifyItems: "center",
-  },
-
-  imm: {
-    overFlow: "hidden",
-    objectFit: "cover",
-    position: "center",
-    display: "flex",
-    justifyContent: "center",
-    justifyItem: "center",
-  },
-}));
-
 const Team = () => {
-  const classes = useStyles();
   return (
-    <div className="container___">
-      <div className={classes.main}>
-        <Grid container spacing={0} className={classes.grid}>
-          <Grid item>
-            <div className={classes.title}>
-              <h1>OUR TEAM </h1>
+    <>
+      <h1 className="ourteam">OUR TEAM</h1>
+      <div class="main">
+        <div class="profile-card">
+          <div class="img">
+            <img src={tejasi} />
+          </div>
+          <div class="caption">
+            <h3>Tejasi</h3>
+            <p>Program Coordinator</p>
+            <div class="social-links">
+              <a href="https://twitter.com/Tejasi7?t=ichfZ-yswKOUN9jzicLXlg&s=08">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/tejasi-mangale-15a0821a9">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="@tejasi_17">
+                <i class="fab fa-telegram"></i>
+              </a>
             </div>
-
-            <div className={classes.root}>
-              <Paper elevation={20} className={classes.paper} md={6}>
-                <img src={kamini} alt="dummy" width="100%" height="75%" />
-                <div className={classes.details}>
-                  <div className={classes.name}>
-                    <h3>Kamini</h3>
-                    <h4>Program Coordinator</h4>
-                  </div>
-
-                  <IconButton href="https://www.linkedin.com/in/kamini-singh-619483204">
-                    <LinkedInIcon />
-                  </IconButton>
-                  <IconButton href="https://mobile.twitter.com/KaminiS30055234">
-                    <TwitterIcon />
-                  </IconButton>
-                  <IconButton>
-                    <InstagramIcon />
-                  </IconButton>
-                </div>
-              </Paper>
-
-              <Paper className={classes.paper2} md={6}>
-                <img src={muskan} alt="dummy" width="100%" height="75%" />
-                <div className={classes.details}>
-                  <div className={classes.name}>
-                    <h3>Muskan</h3>
-                    <h4>Program Coordinator</h4>
-                  </div>
-
-                  <IconButton href="https://www.linkedin.com/in/muskan-bansal-095601189">
-                    <LinkedInIcon />
-                  </IconButton>
-                  <IconButton href="https://twitter.com/Muskan0109?t=cvjWeCd1Pl205ByLiXpm-A&s=09">
-                    <TwitterIcon />
-                  </IconButton>
-                  <IconButton>
-                    <InstagramIcon />
-                  </IconButton>
-                </div>
-              </Paper>
-
-              <Paper className={classes.paper3} md={6}>
-                <img src={manas} alt="dummy" width="100%" height="75%" />
-                <div className={classes.details}>
-                  <div className={classes.name}>
-                    <h3>Manas</h3>
-                    <h4>Program Coordinator</h4>
-                  </div>
-
-                  <IconButton href="https://linkedin.com/in/cyberbuddy-manas">
-                    <LinkedInIcon />
-                  </IconButton>
-                  <IconButton href="https://twitter.com/cyberbuddy_io">
-                    <TwitterIcon />
-                  </IconButton>
-                  <IconButton>
-                    <InstagramIcon />
-                  </IconButton>
-                </div>
-              </Paper>
-
-              <Paper className={classes.paper4} md={6}>
-                <img src={harsha} alt="dummy" width="100%" height="78%" />
-                <div className={classes.details}>
-                  <div className={classes.name}>
-                    <h3>Harsha</h3>
-                    <h4>Program Coordinator</h4>
-                  </div>
-
-                  <IconButton href="https://www.linkedin.com/in/harsha-bajaj-398323200">
-                    <LinkedInIcon />
-                  </IconButton>
-                  <IconButton href="https://twitter.com/bajajharsha2?t=kdeTDeOpBGGLMhKKqhfhUA&s=08">
-                    <TwitterIcon />
-                  </IconButton>
-                  <IconButton>
-                    <InstagramIcon />
-                  </IconButton>
-                </div>
-              </Paper>
-
-              <Paper className={classes.paper5} md={6}>
-                <img
-                  className={classes.imm}
-                  src={tejasi}
-                  alt="dummy"
-                  width="100%"
-                  height="78%"
-                  overFlow="hidden"
-                />
-                <div className={classes.details}>
-                  <div className={classes.name}>
-                    <h3>Tejasi</h3>
-                    <h4>Program Coordinator</h4>
-                  </div>
-
-                  <IconButton href="https://www.linkedin.com/in/tejasi-mangale-15a0821a9">
-                    <LinkedInIcon />
-                  </IconButton>
-                  <IconButton href="https://twitter.com/Tejasi7?t=ichfZ-yswKOUN9jzicLXlg&s=08">
-                    <TwitterIcon />
-                  </IconButton>
-                  <IconButton>
-                    <InstagramIcon />
-                  </IconButton>
-                </div>
-              </Paper>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="img">
+            <img src={manas} />
+          </div>
+          <div class="caption">
+            <h3>Manas</h3>
+            <p>Program Coordinator</p>
+            <div class="social-links">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-telegram"></i>
+              </a>
             </div>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="img">
+            <img src={harsha} />
+          </div>
+          <div class="caption">
+            <h3>Harsha</h3>
+            <p>Program Coordinator</p>
+            <div class="social-links">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-telegram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="img">
+            <img src={muskan} />
+          </div>
+          <div class="caption">
+            <h3>Muskan</h3>
+            <p>Program Coordinator</p>
+            <div class="social-links">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-telegram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="img">
+            <img src={kamini} />
+          </div>
+          <div class="caption">
+            <h3>Kamini</h3>
+            <p>Program Coordinator</p>
+            <div class="social-links">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-telegram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
